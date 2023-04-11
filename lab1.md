@@ -16,9 +16,13 @@ You should eventually be directed to a page similar to the one that is shown.
 
 ### Step 2: Remotely Connecting
 If you are on Windows, use the link below to download "git," but if you are on macOS, you can skip this part of the step.
+
 ***
+
 [https://gitforwindows.org/](https://gitforwindows.org/)
+
 ***
+
 You will then have to access "bash" in the terminal by clicking the down arrow as shown below. 
 
 <img width="1246" alt="image" src="https://user-images.githubusercontent.com/123005863/231067725-8e6b129f-08b0-405b-a522-6a3f3529bad1.png">
