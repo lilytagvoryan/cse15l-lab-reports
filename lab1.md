@@ -37,6 +37,7 @@ You can try out many different types of commands such as the following:
 * cd ~
 * ls -lat
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+
 <img width="1434" alt="image" src="https://user-images.githubusercontent.com/123005863/231070112-fdad9a14-b2d8-43f8-a0a8-0b1d5b0a358f.png">
 
 #### And there you go! :)
