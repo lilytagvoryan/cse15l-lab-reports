@@ -8,7 +8,9 @@ Click the link below to direct you to the download page for VScode as shown in t
 ***
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
 ***
+
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/123005863/231065981-a56963b9-52b4-4116-9df5-c4f3bfe9e54e.png">
 You should eventually be directed to a page similar to the one that is shown.
 
