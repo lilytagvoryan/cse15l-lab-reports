@@ -1,9 +1,9 @@
 # Remote Access and FileSystem
-## Log into Your Account Tutorial...
-<p> There are multiple steps in which 15L students must take to log into their <i> course-specific </i> account! </p>
-## Step 1: Installing VScode 
-  <p> To install VScode, one must... </p>
-## Step 2: Remotely Connecting
-  <p> By remotely connecting, you can... You do this by... </p>
-## Step 3: Trying Some Commands
-  <p> You can try out many different types of commands like...These allow you to... </p>
+## Logging into Your Account Tutorial
+There are multiple steps in which 15L students must take to log into their _course-specific_  account! 
+### Step 1: Installing VScode 
+  To install VScode, one must... 
+### Step 2: Remotely Connecting
+  By remotely connecting, you can... You do this by...
+### Step 3: Trying Some Commands
+  You can try out many different types of commands like...These allow you to... 
