@@ -33,7 +33,7 @@ Next, in the terminal, copy and paste this ssh command (ssh cs15lsp23<>@ieng6.uc
 
 
 ### Step 3: Running Some Commands
-You can try out many different types of commands such as the following: 
+Not all commands react the same way. Some may produce errors while others may print crucial information or data. You can try out many different types of commands such as the following: 
 * cd ~
 * ls -lat
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
