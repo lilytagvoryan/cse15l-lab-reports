@@ -34,9 +34,9 @@ Next, in the terminal, copy and paste this ssh command (```ssh cs15lsp23<>@ieng6
 
 ### Step 3: Running Some Commands
 Not all commands react the same way. Some may produce errors while others may print crucial information or data. You can try out many different types of commands such as the following: 
-* ```cd ~``` which allows you to change your "current directory" and move between other directories 
-* ```ls -lat``` which "lists" the files and folders  
-* ```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/``` which copies the file from the given path  
+* ```cd ~``` *which allows you to change your "current directory" and move between other directories 
+* ```ls -lat``` *which "lists" the files and folders  
+* ```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/``` *which copies the file from the given path  
 
 <img width="1434" alt="image" src="https://user-images.githubusercontent.com/123005863/231070112-fdad9a14-b2d8-43f8-a0a8-0b1d5b0a358f.png">
 
