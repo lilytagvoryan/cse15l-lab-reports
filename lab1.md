@@ -27,7 +27,7 @@ You will then have to access "bash" in the terminal by clicking the down arrow a
 
 <img width="1246" alt="image" src="https://user-images.githubusercontent.com/123005863/231067725-8e6b129f-08b0-405b-a522-6a3f3529bad1.png">
 
-Next, in the terminal, copy and paste this ssh command (```ssh cs15lsp23<>@ieng6.ucsd.edu```), but replace the <> with the letters for YOUR username. Click enter and type in the password corresponding to your course-specific account. You should get something similar to this...
+Next, in the terminal, copy and paste this ssh command ```ssh cs15lsp23<>@ieng6.ucsd.edu```, but replace the <> with the letters for YOUR username. Click enter and type in the password corresponding to your course-specific account. You should get something similar to this...
 
 <img width="1438" alt="image" src="https://user-images.githubusercontent.com/123005863/231069162-8da73286-d915-466d-94e1-e040053b59cd.png">
 
