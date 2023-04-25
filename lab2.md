@@ -9,6 +9,10 @@ Using ```/add-message```
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/123005863/234175671-5a588240-5a6e-42a5-8c13-e0c49e0a0e0b.png">
 
+1. ``localhost: 4000/add-message?s=Hello``
+  *
+2. ``localhost:4000/add-message?s=How%20are%20you``
+
 ***
 ## Part 2
 words
