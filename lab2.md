@@ -29,7 +29,8 @@ Failiure
   @Test
   public void testReverseinPlace2() {
     int[] input1 = {1, 2, 3};
-    assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
+     ArrayExamples.reversed(input1);
+    assertArrayEquals(new int[]{3, 2, 1}, input1);
   }  
 ```
 No Failure
@@ -43,7 +44,26 @@ No Failure
  ```
 Symptom
 
-<img width="698" alt="image" src="https://user-images.githubusercontent.com/123005863/234181356-8fb946a6-c246-44b0-8e23-af34619b3c9d.png">
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/123005863/234182731-85a85d48-376a-4d53-a74a-cd80f2f0ae59.png">
+
+Before
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+After
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length -i-1] = temp;
+    }
+  }
+```
 
 ## Part 3
 words
