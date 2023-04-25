@@ -64,6 +64,8 @@ After
     }
   }
 ```
+In the after code the fix was that the code needed to go through swapping the elements once instead of twice, so the code only needs to go through half of the list that way it is done only once, the ```temp``` variable helps store the lost value that is replaced at first.
 
 ## Part 3
-words
+
+Lab 3 helped me get a better understanding of JUnit. Before testing code was a somewhat tedious task because I did not understand how to implement a tester method, but with JUnit, I am able to quickly set up methods and run commands to use my tester code. I hope to use JUnit to my advantage in future CS classes :D.
