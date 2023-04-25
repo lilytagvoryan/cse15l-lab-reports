@@ -24,7 +24,7 @@ Using ```/add-message```:
 ***
 
 ## Part 2
-Failure
+Failure:
 ```
   @Test
   public void testReverseinPlace2() {
@@ -33,7 +33,7 @@ Failure
     assertArrayEquals(new int[]{3, 2, 1}, input1);
   }  
 ```
-No Failure
+No Failure:
 ```
 	@Test 
 	public void testReverseInPlace() {
@@ -42,11 +42,11 @@ No Failure
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
  ```
-Symptom
+Symptom:
 
 <img width="702" alt="image" src="https://user-images.githubusercontent.com/123005863/234182731-85a85d48-376a-4d53-a74a-cd80f2f0ae59.png">
 
-Before
+Before:
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -54,7 +54,7 @@ Before
     }
   }
 ```
-After
+After:
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
