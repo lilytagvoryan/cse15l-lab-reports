@@ -19,9 +19,31 @@ Using ```/add-message```
 2. ``localhost:4000/add-message?s=How%20are%20you``
  * Some other methods that are also called in this url are, ```.getQuery()``` and ```.split()```.
  * The relevant argument for ```.split()``` is ``"=''``, on the other hand, ```.getQuery()``` does not have a relevant argument because this method is only suppose to get what is after the `?` from the URL.
- * ```.getQuery()
+ * ```.getQuery()```does not have an input but the output does change according to whatever is after the `?` in the URL, ```.split()``` argument does not change because the code is attempting to split the queries up by =.
+
 ***
+
 ## Part 2
-words
+Failiure
+```
+  @Test
+  public void testReverseinPlace2() {
+    int[] input1 = {1, 2, 3};
+    assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
+  }  
+```
+No Failure
+```
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+ ```
+Symptom
+
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/123005863/234181356-8fb946a6-c246-44b0-8e23-af34619b3c9d.png">
+
 ## Part 3
 words
