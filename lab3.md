@@ -3,24 +3,24 @@ The ```grep``` command consists of multiple alternatives or command-like options
 
 ***
 
-## 1. grep c-
+#### 1. grep c-
   * h
   * h
 
 ***
 
-## 2. command
+#### 2. command
   * h
   * h
 
+***
 
-
-3. command
+#### 3. command
   * h
   * h
 
+***
 
-
-4. command
+#### 4. command
   * h
   * h
