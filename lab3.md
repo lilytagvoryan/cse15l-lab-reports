@@ -10,14 +10,14 @@ The ```grep``` command consists of multiple alternatives or command-like options
   ```
   26
   ```
- * What this command did was print the number of lines where "health" showed up in the text file within biomed. 
+ What this command did was print the number of lines where "health" showed up in the text file within biomed. 
   ```
   grep -c "report" technical/government/Alcohol_Problems/Session2-PDF.txt
   ``` 
   ```
   13
   ```
- * This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems.
+ This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems.
 
 ***
 
@@ -44,7 +44,7 @@ The ```grep``` command consists of multiple alternatives or command-like options
         secure zinc coffins (borrowing both heads for a bit more measuring, and swiping Schubert's
         luxuriant, larvae-laden hair while they were at it). Archaeologists have braved curses and
  ```
-* This command looked through the file and printed two lines before and after the matches of "death" in the text file within plos.
+This command looked through the file and printed two lines before and after the matches of "death" in the text file within plos.
 ```
 grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
 ```
@@ -60,7 +60,7 @@ grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
         with dependence on medical laboratories. Thus rapid test
         could be a better diagnostic method in 
  ```
-* This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed.
+This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed.
 ***
 
 #### 3. ```grep "[text]$"```
@@ -70,8 +70,32 @@ grep "ls$" technical/911report/chapter-5.txt
 ```
                 petition was pending, Binalshibh lived in Hamburg and associated with individuals
 ```
-* What this command searched for was the line(s) ending in "ls" as written with the "$" to indicate the end of the search. It printed the line ending in "ls" within a text file in 911report.
-
+What this command searched for was the line(s) ending in "ls" as written with the "$" to indicate the end of the search. It printed the line ending in "ls" within a text file in 911report.
+```
+grep "ce$" technical/government/About_LSC/Progress_report.txt 
+```
+```
+Wood) and Pat Hanrahan and Wendy Burnette in the Executive Office
+In March of 2001, LSC released Building State Justice
+In April, LSC announced significant changes in service
+experience in LSC-funded programs. Many staff also have experience
+part-time consultants. Their combined expertise includes resource
+A TIG conference was held in Chicago in October to introduce
+ensure that each web site supports the entire state justice
+application process took place at the National Equal Justice
+State Justice Institute, the Open Society Institute and Justice
+Courts and the Horowitz Foundation) on building broader justice
+discuss the preparation of this manual at the TIG 2001 conference
+reviews, published as a "Program Review Guide." It is a reference
+Commitment: Undertake a series of program evaluation performance
+The Creation of Efforts to Link with the International Justice
+Addressing the Pan Pacific Legal Aid Conference
+directors, or clients. There was also a two-day national conference
+Meaningful Access to Justice
+North Carolina and Arkansas held their first Equal Justice
+The Supreme Court of Washington created a new Task Force
+```
+This command looked for and printed the line(s) that ended with "ce" as followed by the "$" in the text file. This search came out of the government folder.
 ***
 
 #### 4. command
