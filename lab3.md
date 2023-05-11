@@ -10,14 +10,14 @@ The ```grep``` command consists of multiple alternatives or command-like options
   ```
   26
   ```
- What this command did was print the number of lines where "health" showed up in the text file within biomed. 
+ What this command did was print the number of lines where "health" showed up in the text file within biomed. This is useful because if you want to use it on several articles, for instance, you may easily pick and choose the one that has a higher count of the word you're looking for (medical, in this example) to see if there is any additional information on it.
   ```
   grep -c "report" technical/government/Alcohol_Problems/Session2-PDF.txt
   ``` 
   ```
   13
   ```
- This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems.
+ This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems. This command was helpful for this search since it allows you to find any specific information on a "report" for that specific session.
 
 ***
 
@@ -44,7 +44,7 @@ The ```grep``` command consists of multiple alternatives or command-like options
         luxuriant, larvae-laden hair while they were at it). Archaeologists have braved curses and
  ```
  
-This command looked through the file and printed two lines before and after the matches of "death" in the text file within plos.
+This command looked through the file and printed two lines before and after the matches of "death" in the text file within plos. With this command, you're able to read any information about "death," but also look at any sentences before and after it for additional context.
 
 
 ```
@@ -65,7 +65,7 @@ three villages of each PHC during autumn season
         could be a better diagnostic method in 
  ```
 
-This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed.
+This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed. This command allows the user to look at information where "medical" is specifically stated with lines of text on it, before and after.
 
 ***
 
@@ -78,7 +78,7 @@ grep "ls$" technical/911report/chapter-5.txt
 ```
                 petition was pending, Binalshibh lived in Hamburg and associated with individuals
 ```
-What this command searched for was the line(s) ending in "ls" as written with the "$" to indicate the end of the search. It printed the line ending in "ls" within a text file in 911report.
+What this command searched for was the line(s) ending in "ls" as written with the "$" to indicate the end of the search. It printed the line ending in "ls" within a text file in 911report that permits the user to find the specific area where the ending of the word may be.
 ```
 grep "ce$" technical/government/About_LSC/Progress_report.txt 
 ```
@@ -103,7 +103,7 @@ Meaningful Access to Justice
 North Carolina and Arkansas held their first Equal Justice
 The Supreme Court of Washington created a new Task Force
 ```
-This command looked for and printed the line(s) that ended with "ce" as followed by the "$" in the text file. This search came out of the government folder.
+This command looked for and printed the line(s) that ended with "ce" as followed by the "$" in the text file. This search is helpful since it allows the user to search for the specific ending of "ce" of words within the file, which can be useful if you're only looking for the ending of those words.
 ***
 
 #### 4. ```grep -v```
@@ -149,7 +149,7 @@ grep -v "a" technical/biomed/1471-2369-3-6.txt
         Authors' Contributions
         the experiments.
  ```
-This command looked up all the lines where "a" does NOT show up. Contrasting from the other commands, -v looks for the places where the given string is NOT shown.
+This command looked up all the lines where "a" does NOT show up. Contrasting from the other commands, -v looks for the places where the given string is NOT shown which is helpful if you want to find information that does not show up in the article you are viewing.
 ```
 grep -v 'a\|e\|i' technical/plos/pmed.0010028.txt     
 ```
@@ -194,7 +194,7 @@ count of 3.0 × 10
       
         10
 ```
-This command printed all the lines where "a", "e", nor "i" showed up in. Therefore, not a lot of text appeared since those vowels were constantly used throughout the text file in plos.
+This command printed all the lines where "a", "e", nor "i" showed up in. Therefore, not a lot of text appeared since those vowels were constantly used throughout the text file in plos; this is helpful if you're trying to find analytics on data without getting whole words.
 
 ***
-*The cite I saw these commands from was [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).*
+*The cite I saw these commands from was [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)*
