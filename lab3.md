@@ -100,6 +100,48 @@ The Supreme Court of Washington created a new Task Force
 This command looked for and printed the line(s) that ended with "ce" as followed by the "$" in the text file. This search came out of the government folder.
 ***
 
-#### 4. command
-  * h
+#### 4. ```grep -v```
+```
+grep -v "a" technical/biomed/1471-2369-3-6.txt    
+```
+```
+ Methods
+        
+          Cell culture
+          B, 1 μg/ml hydrocortisone, 10 μg/ml insulin, 5.5 mg/ml
+          Growth Supplement (PerImmune, Rockville, MD) + 100 U/ml
+        
+        
+          nm.
+          nm.
+        
+        
+        
+      
+      
+        Results
+        Stx-1 (72 hr exposure to toxin) dose-dependently killed
+        fM).
+        dose-response from 10 -5- 10 -11g/L Stx-1, in ten-fold
+      
+      
+        Stx-producing 
+        effect of sex steroids on Stx responsiveness, however, the
+        previous studies, within the limits of the cell culture
+        Cells were exposed to the steroids for up to one week in
+        E. coli 0157:H7 [ 14 ] . Further,
+        to be responsive to sex steroids (e.g.
+        determined.
+      
+      
+        HUS hemolytic-uremic syndrome
+      
+      
+        Competing interests
+      
+      
+        Authors' Contributions
+        the experiments.
+ ```
+ This command looked up all the lines where "a" does NOT show up. Contrasting from the other commands, -v looks for the places where the given string is NOT shown.
   * h
