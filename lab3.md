@@ -7,19 +7,19 @@ The ```grep``` command consists of multiple alternatives or command-like options
   * h
   * h
 
-***
+
 
 2. command
   * h
   * h
 
-***
+
 
 3. command
   * h
   * h
 
-***
+
 
 4. command
   * h
