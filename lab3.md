@@ -64,9 +64,11 @@ This command searched the file and printed one line before and after the matches
 ***
 
 #### 3. ```grep "[text]$"```
+
 ```
 grep "ls$" technical/911report/chapter-5.txt 
 ```
+
 ```
                 petition was pending, Binalshibh lived in Hamburg and associated with individuals
 ```
