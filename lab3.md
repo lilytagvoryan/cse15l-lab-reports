@@ -43,10 +43,15 @@ The ```grep``` command consists of multiple alternatives or command-like options
         secure zinc coffins (borrowing both heads for a bit more measuring, and swiping Schubert's
         luxuriant, larvae-laden hair while they were at it). Archaeologists have braved curses and
  ```
+ 
 This command looked through the file and printed two lines before and after the matches of "death" in the text file within plos.
+
+
 ```
 grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
 ```
+
+
 ```three villages of each PHC during autumn season
           (December, 1999), by one medical specialist by
           establishing a mobile field clinic after obtaining
@@ -59,13 +64,18 @@ grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
         with dependence on medical laboratories. Thus rapid test
         could be a better diagnostic method in 
  ```
+ 
+
 This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed.
+
 ***
 
 #### 3. ```grep "[text]$"```
+
 ```
 grep "ls$" technical/911report/chapter-5.txt 
 ```
+
 ```
                 petition was pending, Binalshibh lived in Hamburg and associated with individuals
 ```
