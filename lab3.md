@@ -3,7 +3,7 @@ The ```grep``` command consists of multiple alternatives or command-like options
 
 ***
 
-#### 1. grep c-
+#### 1. ```grep c-```
   * h
   * h
 
