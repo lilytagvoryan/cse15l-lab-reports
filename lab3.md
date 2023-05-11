@@ -25,7 +25,6 @@ The ```grep``` command consists of multiple alternatives or command-like options
   ```
   grep -C 2 "death" technical/plos/pmed.0020060.txt
   ``` 
-  
   ```
   Preparing for Death
         How does one prepare for death? Those who have created a public persona must add to any
@@ -64,11 +63,9 @@ This command searched the file and printed one line before and after the matches
 ***
 
 #### 3. ```grep "[text]$"```
-
 ```
 grep "ls$" technical/911report/chapter-5.txt 
 ```
-
 ```
                 petition was pending, Binalshibh lived in Hamburg and associated with individuals
 ```
@@ -143,5 +140,52 @@ grep -v "a" technical/biomed/1471-2369-3-6.txt
         Authors' Contributions
         the experiments.
  ```
- This command looked up all the lines where "a" does NOT show up. Contrasting from the other commands, -v looks for the places where the given string is NOT shown.
-  * h
+This command looked up all the lines where "a" does NOT show up. Contrasting from the other commands, -v looks for the places where the given string is NOT shown.
+```
+grep -v 'a\|e\|i' technical/plos/pmed.0010028.txt     
+```
+```
+count of 3.0 × 10
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+        
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+      
+        10
+```
+This command printed all the lines where "a", "e", nor "i" showed up in. Therefore, not a lot of text appeared since those vowels were constantly used throughout the text file in plos.
+
+***
+*The cite I saw these commands from was [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
