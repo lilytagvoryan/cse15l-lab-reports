@@ -4,13 +4,27 @@ The ```grep``` command consists of multiple alternatives or command-like options
 ***
 
 #### 1. ```grep c-```
-  * I input ```grep -c "health" technical/biomed/1472-6963-3-7.txt``` in the terminal. The output that was printed came out as ```26```. What this command did was print the number of lines where "health" showed up in the text file within biomed. 
-  * I input ```grep -c "report" technical/government/Alcohol_Problems/Session2-PDF.txt``` in the terminal. The output for this command-line option was ```13```. This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems.
+  ```
+  grep -c "health" technical/biomed/1472-6963-3-7.txt
+  ```
+  ```
+  26
+  ```
+  What this command did was print the number of lines where "health" showed up in the text file within biomed. 
+  ```
+  grep -c "report" technical/government/Alcohol_Problems/Session2-PDF.txt
+  ``` 
+  ```
+  13
+  ```
+  This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems.
 
 ***
 
 #### 2. ```grep -C[NumberOfLines(n)] [search] [file]``` 
-  * I input ```grep -C 2 "death" technical/plos/pmed.0020060.txt``` in the terminal. The output for this command was 
+  ```
+  grep -C 2 "death" technical/plos/pmed.0020060.txt
+  ``` 
   
   ```
   Preparing for Death
@@ -31,7 +45,7 @@ The ```grep``` command consists of multiple alternatives or command-like options
         luxuriant, larvae-laden hair while they were at it). Archaeologists have braved curses and
  ```
  This command printed the searched lines and two lines before and after the matches of "death" in the text file in plos.
-  * h
+ 
 
 ***
 
