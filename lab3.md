@@ -17,7 +17,7 @@ The ```grep``` command consists of multiple alternatives or command-like options
   ```
   13
   ```
- This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems. This command was helpful for this search since it allows you to find any specific information on a "report" for that specific session.
+ This command printed the number of lines where "report" was present in the Session2 text file of Alcohol_Problems. This command was helpful for this search since it may allow you to find the text file with the most amount of times "report" shows up in to thus see where you might find the most evidence. 
 
 ***
 
