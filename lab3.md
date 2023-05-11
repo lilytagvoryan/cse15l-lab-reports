@@ -51,8 +51,8 @@ This command looked through the file and printed two lines before and after the 
 grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
 ```
 
-
-```three villages of each PHC during autumn season
+```
+three villages of each PHC during autumn season
           (December, 1999), by one medical specialist by
           establishing a mobile field clinic after obtaining
 --
@@ -64,7 +64,6 @@ grep -C 1 "medical" technical/biomed/1471-2334-1-10.txt
         with dependence on medical laboratories. Thus rapid test
         could be a better diagnostic method in 
  ```
- 
 
 This command searched the file and printed one line before and after the matches of "medical" in the text file within biomed.
 
@@ -198,4 +197,4 @@ count of 3.0 × 10
 This command printed all the lines where "a", "e", nor "i" showed up in. Therefore, not a lot of text appeared since those vowels were constantly used throughout the text file in plos.
 
 ***
-*The cite I saw these commands from was [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
+*The cite I saw these commands from was [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).*
