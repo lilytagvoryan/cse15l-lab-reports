@@ -22,7 +22,9 @@ You can run the tests by first typing ```ls``` to see all the folders/files you 
 ***
 
 ### 4. Edit the code file to fix the failing test
-Continue by viewing the code file, then editing it to fix the appearing failing test. You can edit the code by inserting ```</index1><enter><n><n><n><n><n><n><n><n><n><l><l><l><l><l><x><i><2><esc><:wq><enter>```. 
+You can view the code file by entering ```vim ListExamples.java```. Then begin editing the file to fix the appearing failing test. You can edit the code by inserting ```</index1><enter><n><n><n><n><n><n><n><n><n><l><l><l><l><l><x><i><2><esc><:wq><enter>```. This should not only allow you to edit the text but save it as well.
+
+<img width="752" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/5c6793b4-56aa-47ee-b2f7-eba371598b08">
 
 ***
 
