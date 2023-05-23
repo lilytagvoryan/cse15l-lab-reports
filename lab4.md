@@ -29,8 +29,9 @@ You can view the code file by entering ```vim ListExamples.java```. Then begin e
 ***
 
 ### 5. Run the tests, demonstrating that they now succeed
-You can run the tests again by clicking the ```<up>``` arrow until you see ```run```.
+You can run these tests to see if they now work by using the terminal! You do this by entering the same commands from step 3. Type in ```cd lab7```, then ```bash test.sh```.
 
 ***
 
 ### 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
+You can finally commit by entering ```git commit -a```. After this, write your commit message. I used "This has been committed!"
