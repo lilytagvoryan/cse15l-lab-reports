@@ -15,7 +15,7 @@ Next, you must clone your fork of the repository through your account on Github.
 ***
 
 ### 3. Run the tests, demonstrating that they fail
-You can run the tests by first typing ```ls``` to see all the folders/files you can move into. Then ```cd lab7``` and ```ls``` to see what is in that folder. Then, type ```bash test.sh``` to run whatever is in that file. The steps are also shown in image below.
+You can run the tests by first typing ```ls``` to see all the folders/files you can move into. Then, type ```cd lab7``` to move into that directory and ```ls``` to see what is in that folder. Type ```bash test.sh``` to run whatever is in that file right after checking to see that ```test.sh``` exists (from the previous ```ls``` command). The steps are also shown in image below.
 
 *Note: press```<enter>```after each command.*
 
