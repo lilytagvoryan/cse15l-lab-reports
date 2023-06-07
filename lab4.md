@@ -33,7 +33,7 @@ The ```</.add>``` searches for anything after the slash, in this case ```.add```
 ***
 
 ### 5. Run the tests, demonstrating that they now succeed
-You can run these tests to see if they now work by using the terminal. You do this by pressing ```<up><up>``` where you should see ```bash test.sh``` in order to rerun the tests. The steps and results are shown below.
+You can run these tests to see if they now work by using the terminal. You do this by pressing ```<up><up>``` (indicating the up arrows) where you should see ```bash test.sh``` in order to rerun the tests. You can then press ```<enter>``` to see your results as shown below.
 
 <img width="537" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/9fde7444-c6e3-494e-a0a5-039efbb8c162">
 
