@@ -1,7 +1,7 @@
 # Doing it All From the Command Line
 ## These steps involve editing, compiling, and running commands from the terminal!
 ### 1. Log into ieng6
-Begin by logging into your ieng6 account by entering ```ssh cs15lsp23[!!]@ieng6.ucsd.edu``` into the terminal for ```bash```. Subsitute the ```!!``` for the letters you recieved for your own ieng6 account. After entering, ```Password:``` should come up which in turn will permit the user (or you) to enter their/your password. It should look like something similar to the image below.
+Begin by logging into your ieng6 account by entering ```ssh cs15lsp23[!!]@ieng6.ucsd.edu``` into the terminal under ```bash```. Subsitute the ```!!``` for the letters you recieved for your own ieng6 account. After entering, ```Password:``` should come up which in turn will permit the user (you) to enter their/your password. It should look like something similar to the image below.
 
 <img width="933" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/bd5dc119-94f8-4f1a-a4c0-d8acffe9b862">
 
