@@ -23,6 +23,7 @@ You can run the tests by first typing ```ls``` to see all the folders/files you 
 
 ### 4. Edit the code file to fix the failing test
 You can view the code file by entering ```vim ListExamples.java```. Then begin editing the file to fix the appearing failing test. You can edit the code by inserting ```</.add><enter><n><n><n><n><j><j><x><i><2><esc><:wq><enter>```. This should not only allow you to edit the text but save it as well. 
+
 The ```</.add>``` searches for anything after the slash, in this case ```.add```. Next, with just 4 clicks of ```<n>``` (for **n**ext character(s) searched) and 2 clicks of ```<j>``` (to move down a line(s)) you're brought to the line you must make your edit. The ```<x>``` removes a character, the ```<i>``` puts the user in insert mode, and ```<2>``` replaces the ```1``` to fix the bug. The ```<esc``` escapes the user out of insert mode and into normal mode. The ```:wq:``` finally allows the user to save and exit. 
 
 <img width="752" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/5c6793b4-56aa-47ee-b2f7-eba371598b08">
