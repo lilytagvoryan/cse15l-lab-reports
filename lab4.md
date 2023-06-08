@@ -44,3 +44,9 @@ You can finally commit by entering ```git add ListExamples.java``` ```<enter>```
 
 <img width="557" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/691ddce3-b96a-4793-af89-a577060a5790">
 
+<img width="566" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/2f49516a-48d8-4c09-9b6b-aa2079af7dfa">
+
+After, you can type ```git push``` ```<enter>``` to push all changes you have made to your committed repository. 
+
+
+
