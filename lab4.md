@@ -24,9 +24,9 @@ You can run the tests by first typing ```ls``` to see all the folders/files you 
 ***
 
 ### 4. Edit the code file to fix the failing test
-You can view the code file by entering ```vim ListExamples.java```. Then, begin editing the file to fix the appearing failing test. You can edit the code by inserting ```</.add><enter><n><n><n><n><j><j><x><i><2><esc><:wq><enter>```. This should not only allow you to edit the text but save it as well. 
+You can view the code file by entering ```vim ListExamples.java```. Then, begin editing the file to fix the appearing failing test. You can edit the code by inserting ```/.add<enter><n><n><n><n><j><j><x><i><2><esc>:wq<enter>```. This should not only allow you to edit the text but save it as well. 
 
-The ```</.add>``` searches for anything after the slash, in this case ```.add```. The user then must press ```<enter>```. Next, with just 4 clicks of ```<n>``` (for **next** character(s) searched) and 2 clicks of ```<j>``` (to move down a line(s)), you're brought to the line you must make your edit. The ```<x>``` removes a character, the ```<i>``` puts the user in **insert** mode, and the ```<2>``` replaces the existing ```1``` in order to fix the bug. The ```<esc>``` takes the user out of insert mode and into normal mode, and ```<:wq>``` finally allows the user to save and quit the file. The user concludes by pressing ```<enter>```. 
+The ```/.add``` searches for anything after the slash, in this case ```.add```. The user then must press ```<enter>```. Next, with just 4 clicks of ```<n>``` (for **next** character(s) searched) and 2 clicks of ```<j>``` (to move down a line(s)), you're brought to the line you must make your edit. The ```<x>``` removes a character, the ```<i>``` puts the user in **insert** mode, and the ```<2>``` replaces the existing ```1``` in order to fix the bug. The ```<esc>``` takes the user out of insert mode and into normal mode, and ```:wq``` finally allows the user to save and quit the file. The user concludes by pressing ```<enter>```. 
 
 <img width="752" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/5c6793b4-56aa-47ee-b2f7-eba371598b08">
 
@@ -40,4 +40,7 @@ You can run these tests to see if they now work by using the terminal. You do th
 ***
 
 ### 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
-You can finally commit by entering ```git commit -a```. After this, write your commit message. I used "This has been committed!"
+You can finally commit by entering ```git add ListExamples.java``` ```<enter>``` to add the file onto the next commit. Then, ```git commit``` ```<enter>```. After this you'll be shown a screen similar to the one below where you'll write your commit message. I used "Committed!" I pressed ```<esc>``` right after go into normal mode. I then typed ```:wq``` in order to save and quit.
+
+<img width="557" alt="image" src="https://github.com/lilytagvoryan/cse15l-lab-reports/assets/123005863/691ddce3-b96a-4793-af89-a577060a5790">
+
